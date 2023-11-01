@@ -1,1 +1,1 @@
-int listen_if_card(const char* if_card);
+int bind_interface(const char* if_card);

@@ -30,6 +30,6 @@ clean:
 	rm -f $(BIN)
 
 r:
-	$(BIN)
+	sudo $(BIN)
 run:
-	$(BIN)
+	sudo $(BIN)
