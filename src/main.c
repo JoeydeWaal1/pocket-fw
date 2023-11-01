@@ -1,6 +1,8 @@
-#include <stdio.h>
+#include "if_card.h"
+#include "socket.h"
 
-int main(void)
+int main()
 {
-    puts("Hello world!");
+    int socket = listen_if_card("en1");
 }
+
